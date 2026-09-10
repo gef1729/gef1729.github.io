@@ -2,5 +2,5 @@
 ## Guy Francis
 
 ### Visualization 1
-<img src='Wind_Speed_vs_Pressure.png'>
+<img src='Wind_Speed_vs_Pressure.png' style="display: block; margin: 0 auto;">
 <p>This visualization shows the relationship betweeen wind speed and air pressure at two Colorado locations. At both locations, there appears to be a negative correlation: as one of these variables increases the other decreases. The relationship appears slightly stronger for Alamosa compared to Denver.</p>
