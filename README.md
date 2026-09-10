@@ -8,6 +8,6 @@
 
 **Software:** This visualization was created using Python/Matplotlib.
 
-**Data:** The data for this visualization were taken from [meteostat.com](https://meteostat.net).
+**Data:** The data for this visualization were taken from [meteostat.net](https://meteostat.net).
 
 
