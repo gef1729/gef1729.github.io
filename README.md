@@ -13,7 +13,7 @@
 ### Visualization 2
 ![Visualization 2](/US_World_Gini.png)
 
-**About this visualization:** This visualization shows the trend in the Gini coefficient for the United States and all countries since 1963. The Gini coefficient is a measure of economic inequality, with 0% representing total equality and 100% representing total inequality (one person has all the wealth). The trend shows that US inequality has increased from around 35% to 40% since 1980, while average inequality for all countries increased at first but has started to decline in recent decades.
+**About this visualization:** This visualization shows the trend in the Gini coefficient for the United States and all countries since 1963. The Gini coefficient is a measure of economic inequality, with 0% representing total equality and 100% representing total inequality (one person has all the wealth). The trend shows that US inequality has increased from around 35% in 1980 to over 40% in the 2020s, while average inequality for all countries increased in the 1980s and 1990s but then declined in recent decades.
 
 **Software:** This visualization was created using ggplot in RStudio. 
 
