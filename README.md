@@ -10,4 +10,23 @@
 
 **Data:** The data for this visualization were taken from [meteostat.net](https://meteostat.net).
 
+### Visualization 2
+![Visualization 2](/US_World_Gini.png)
 
+**About this visualization:** This visualization shows the trend in the Gini coefficient for the United States since 1963. The Gini coefficient is a measure of economic inequality, with 0% representing total equality and 100% representing total inequality (one person has all the wealth).
+
+**Software:** This visualization was created using ggplot in RStudio. 
+
+**Data:** The data for this visualization were taken from [World Bank Open Data](https://data.worldbank.org/indicator/SI.POV.GINI).
+
+**Code:** The R code to create this visualization is shown below.
+'''
+ggplot(long_gini, aes(x = Year_Numerical, y = Gini_Coeff))  +
+geom_point(aes(Year_Numerical, Gini_Coeff, color="Line One")) +
+geom_line(data = us_gini, aes(x = Year_Numerical, y = Gini_Coeff, color="Line Two"), size = 1) +
+theme_minimal() +
+labs(title='Gini Coefficients for All Countries by Year', x='Year', y='Gini Coefficient (%)')+
+theme(plot.title=element_text(hjust=0.5, family='Tahoma', face='bold'),     legend.background = element_rect(color = "black", linewidth = 0.5, fill = "white"))+
+geom_smooth(aes(color='Global Trend Line'))+
+scale_color_manual(name=NULL, values=c('Line One'='grey80', 'Line Two'='red', 'Global Trend Line'='blue'), labels=c('Global trend line', 'Individual countries', 'United States'))
+'''
