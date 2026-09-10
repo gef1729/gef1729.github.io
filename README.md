@@ -26,7 +26,8 @@ geom_point(aes(Year_Numerical, Gini_Coeff, color="Line One")) +
 geom_line(data = us_gini, aes(x = Year_Numerical, y = Gini_Coeff, color="Line Two"), size = 1) +
 theme_minimal() +
 labs(title='Gini Coefficients for All Countries by Year', x='Year', y='Gini Coefficient (%)')+
-theme(plot.title=element_text(hjust=0.5, family='Tahoma', face='bold'),     legend.background = element_rect(color = "black", linewidth = 0.5, fill = "white"))+
-geom_smooth(aes(color='Global Trend Line'))+
+theme(plot.title=element_text(hjust=0.5, family='Tahoma', face='bold'),     legend.background = element_rect(color = "black", linewidth = 0.5, fill = "white")) +
+geom_smooth(aes(color='Global Trend Line')) +
 scale_color_manual(name=NULL, values=c('Line One'='grey80', 'Line Two'='red', 'Global Trend Line'='blue'), labels=c('Global trend line', 'Individual countries', 'United States'))
 ```
+Click the following link to view the [raw markdown for this page](https://raw.githubusercontent.com/gef1729/gef1729.github.io/refs/heads/main/README.md).
