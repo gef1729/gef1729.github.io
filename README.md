@@ -4,7 +4,9 @@
 ### Visualization 1
 ![Visualization 1](/Wind_Speed_vs_Pressure.png/)
 
-**About this visualization:** This visualization shows the relationship between wind speed and air pressure at two Colorado locations. At both locations, there appears to be a negative correlation: as one of these variables increases the other decreases. The relationship appears slightly stronger for Alamosa compared to Denver.
+**About this visualization:** This visualization shows the relationship between wind speed and air pressure at two Colorado locations. The visualization is a standard scatter plot using distinct glyphs to show data for the different locations. 
+
+At both locations, there appears to be a negative correlation: as one of these variables increases the other decreases. The relationship appears slightly stronger for Alamosa compared to Denver. This graphic is illustrating a standard meteorological result that higher windspeeds are associated with low-pressure systems.
 
 **Software:** This visualization was created using Python/Matplotlib.
 
@@ -13,7 +15,11 @@
 ### Visualization 2
 ![Visualization 2](/US_World_Gini.png)
 
-**About this visualization:** This visualization shows the trend in the Gini coefficient for the United States and all countries since 1963. The Gini coefficient is a measure of economic inequality, with 0% representing total equality and 100% representing total inequality (one person has all the wealth). The trend shows that US inequality has increased from around 35% in 1980 to over 40% in the 2020s, while average inequality for all countries increased in the 1980s and 1990s but then declined in recent decades.
+**About this visualization:** This visualization shows the trend in the Gini coefficient for the United States and all countries since 1963. The Gini coefficient is a measure of economic inequality, with 0% representing total equality and 100% representing total inequality (one person has all the wealth). 
+
+The graphic combines several visual elements: a red line showing the trend in the Gini coefficient for the US; a blue line for the global trend; and grey dots to represent individual countries' coefficients for specific years. 
+
+The trend shows that US inequality increased from around 35% in 1980 to over 40% in the 2020s, while average inequality for all countries increased in the 1980s and 1990s but then declined in recent decades. Apart from a period between 1980 and 2000, inequality has been higher in the US than in other countries, on average.
 
 **Software:** This visualization was created using ggplot in RStudio. 
 
