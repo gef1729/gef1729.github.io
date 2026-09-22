@@ -37,3 +37,5 @@ geom_smooth(aes(color='Global Trend Line')) +
 scale_color_manual(name=NULL, values=c('Line One'='grey80', 'Line Two'='red', 'Global Trend Line'='blue'), labels=c('Global trend line', 'Individual countries', 'United States'))
 ```
 Click the following link to view the [raw markdown for this page](https://raw.githubusercontent.com/gef1729/gef1729.github.io/refs/heads/main/README.md).
+
+[Here is the gold and silver data](https://raw.githubusercontent.com/gef1729/gef1729.github.io/refs/heads/main/gold_silver_annual.csv)
