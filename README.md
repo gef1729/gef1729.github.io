@@ -2,7 +2,7 @@
 ## Guy Francis
 
 ### Visualization 1
-![Visualization 1](/Wind_Speed_vs_Pressure.png/)
+![Scatterplot showing wind speed versus air pressure for two Colorado locations](/Wind_Speed_vs_Pressure.png/ "Scatterplot of wind speed versus air pressure for two Colorado locations")
 
 **About this visualization:** This visualization shows the relationship between wind speed and air pressure at two Colorado locations. The visualization is a standard scatter plot using distinct glyphs to show data for the different locations. 
 
